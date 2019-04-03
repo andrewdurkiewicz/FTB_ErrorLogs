@@ -8,6 +8,7 @@
     "--application-name=Twitch",
     "--crashes-directory=C:\\Users\\andre\\AppData\\Local\\Temp\\Twitch Crashes",
     "--v=1"
+  ],
   "ProcessStart": "2019-04-03T16:27:59.1510000Z",
   "Version": "7.5.0.0",
   "BuildDate": "2019-03-08T22:42:13.0000000Z",
