@@ -1,0 +1,55 @@
+[Info]
+OS: Microsoft Windows NT 6.2.9200.0/64
+OSProductName: Windows 10 Home
+DotNet: 4.0.30319.42000
+DotNet45OrLater: 4.7.2 or later (461808)
+DSN: 6a5f26de0501206cc459c2304d82a990
+DeviceType:  A2T5CWKK734D2D
+AppVersion: 2.5.521.9898598
+Region: US
+Domain: twitch
+TimeUtc: 1554308882080
+CPU: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+ARCH: x86
+CORES: 12
+
+[2019-04-03 09:28:02.064 -07:00  Info] [] CurseApp/Fuel v2.5.521.9898598 started, DSN: '6a5f26de0501206cc459c2304d82a990'
+[2019-04-03 09:28:02.108 -07:00  Info] [] Creating new dir with all user permissions { directory='C:\ProgramData\Twitch\Games', setPermissionsOnTopmostNewDirectory='True' }
+[2019-04-03 09:28:02.113 -07:00  Info] [] Ensuring directory has all user permissions { directory='C:\ProgramData\Twitch\Games', setPermissionsOnTopmostNewDirectory='True', setPermissionsDir='C:\ProgramData\Twitch' }
+[2019-04-03 09:28:02.118 -07:00  Info] [] Adding rule for all user access to directory { directory='C:\ProgramData\Twitch' }
+[2019-04-03 09:28:02.121 -07:00  Info] [] Creating new subdirectory of topmost permissions directory { directory='C:\ProgramData\Twitch\Games' }
+[2019-04-03 09:28:02.216 -07:00  Info] [] Constructing container, resolving dependencies
+[2019-04-03 09:28:02.272 -07:00  Info] [] Container construction successful, running all IStartablePostContainerBuilds
+[2019-04-03 09:28:02.286 -07:00  Info] [] Starting component: Amazon.Fuel.AppCore.FuelAppCore
+[2019-04-03 09:28:02.317 -07:00  Info] [] DB dir missing, creating new directory { baseDir='C:\ProgramData\Twitch\Games\Sql' }
+[2019-04-03 09:28:02.355 -07:00  Info] [] Creating secure DB { dbFile='C:\Users\<omit>\AppData\Roaming\Twitch\Games\Sql\secure.sqlite', sqliteFile='C:\Users\<omit>\AppData\Roaming\Twitch\Games\Sql\secure.sqlite' }
+[2019-04-03 09:28:02.480 -07:00  Info] [] Fuel Lucene DB migration requested { attempts='1' }
+[2019-04-03 09:28:02.502 -07:00  Info] [] Fuel migration completed successfully
+[2019-04-03 09:28:02.518 -07:00  Info] [] Container init complete
+[2019-04-03 09:28:02.590 -07:00  Info] [] Uninstaller TwitchApp exe appears different from common exe, updating
+[2019-04-03 09:28:02.611 -07:00  Info] [] FuelListener/Fuel initialized { dotnetVersion='4.6.2' }
+[2019-04-03 09:28:02.631 -07:00  Info] [] [LIB] InstallUpdateController.RefreshGamesList('Offline_Cached', '')
+[2019-04-03 09:28:02.632 -07:00  Info] [] LibraryPlugin.OwnedGames()
+[2019-04-03 09:28:02.639 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:02.641 -07:00  Info] [] InstalledGameSynchronizer.RemoveInvalidGames()
+[2019-04-03 09:28:02.644 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:02.646 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:10.561 -07:00  Info] [] Session change event detected, updating Fuel { userLoggedOut='False' }
+[2019-04-03 09:28:10.960 -07:00  Info] [] [LIB] Clearing all entitlements
+[2019-04-03 09:28:10.963 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:10.964 -07:00  Info] [] [LIB] InstallUpdateController.RefreshGamesList('Offline_Cached', '')
+[2019-04-03 09:28:10.965 -07:00  Info] [] LibraryPlugin.OwnedGames()
+[2019-04-03 09:28:10.966 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:10.967 -07:00  Info] [] InstalledGameSynchronizer.RemoveInvalidGames()
+[2019-04-03 09:28:10.968 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:10.969 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:10.992 -07:00  Info] [] [LIB] InstallUpdateController.RefreshGamesList('Full', '')
+[2019-04-03 09:28:11.735 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:11.918 -07:00  Info] [] Initializing db { DbExists='False', dbFileName='C:\Users\<omit>\AppData\Roaming\Twitch\Games\Sql\GameProductInfo.sqlite' }
+[2019-04-03 09:28:12.287 -07:00  Info] [] Migrations pending { DbExists='False', pendingMigrations='20180420211634_GameProductInfo_v1' }
+[2019-04-03 09:28:12.654 -07:00  Info] [] LibraryPlugin.OwnedGames()
+[2019-04-03 09:28:12.945 -07:00  Info] [] InstalledGameSynchronizer.RemoveInvalidGames()
+[2019-04-03 09:28:12.947 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:12.948 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:12.950 -07:00  Info] [] Skipping db action for non-existent DB
+[2019-04-03 09:28:12.957 -07:00  Info] [] Skipping db action for non-existent DB

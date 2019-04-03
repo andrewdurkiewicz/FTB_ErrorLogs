@@ -1,0 +1,600 @@
+{
+  "Name": "ElectronMain",
+  "Process": "TwitchUI",
+  "PID": 12628,
+  "Arguments": [
+    "C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\TwitchUI.exe",
+    "/releaseType=Live",
+    "/usher=143920302",
+    "/installed",
+    "/launch-id=A9EC2CF193E7466897C153ABC1455CC5",
+    "/metrics=W3sibGF1bmNoZXJJbml0VGltZSI6eyJzdGFydFRpbWUiOjE1NTQzMDg4NzI5NjAsImR1cmF0aW9uIjo5MH0sImxhdW5jaGVyVXBkYXRlIjp7InN0YXJ0VGltZSI6MTU1NDMwODg3MzA4MiwiZHVyYXRpb24iOjQ4ODB9LCJsYXVuY2hlcldpbmRvd1Nob3ciOnsic3RhcnRUaW1lIjoxNTU0MzA4ODczMDUyLCJkdXJhdGlvbiI6MzB9LCJlbGVjdHJvbkxhdW5jaCI6eyJzdGFydFRpbWUiOjE1NTQzMDg4Nzc5NjMsImR1cmF0aW9uIjowfX1d"
+  ],
+  "ProcessStart": "2019-04-03T16:27:58.0280000Z",
+  "Version": "7.5.0.0",
+  "BuildDate": "2019-03-27T00:06:54Z",
+  "Start": "2019-04-03T16:27:58.8570000Z",
+  "Log": [
+{
+  "timestamp": "2019-04-03T16:27:58.8600000Z",
+  "level": "Info",
+  "thread": 9284,
+  "memory": 24492.000000,
+  "message": "Modules",
+  "data": [
+    "000000000f270000 0004b000  \\\\?\\C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\resources\\app.asar.unpacked\\node_modules\\twitch-desktop-logger\\build\\Release\\twitch-desktop-logger.node",
+    "000000000f650000 00303000  C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\ffmpeg.dll",
+    "000000000f1e0000 0006d000  C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\MSVCP140.dll",
+    "000000000fa30000 00e99000  C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\node.dll",
+    "00000000013c0000 032a8000  C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\TwitchUI.exe",
+    "000000000f960000 00015000  C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\VCRUNTIME140.dll",
+    "0000000075710000 00078000  C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "0000000071c70000 00019000  C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "0000000074d10000 00058000  C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "0000000075520000 00039000  C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "0000000074360000 0025c000  C:\\WINDOWS\\System32\\combase.dll",
+    "0000000077220000 000d6000  C:\\WINDOWS\\System32\\COMDLG32.dll",
+    "0000000077700000 00196000  C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "00000000742d0000 0000a000  C:\\WINDOWS\\System32\\CRYPTBASE.dll",
+    "0000000069620000 00182000  C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "0000000071b40000 00014000  C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "0000000071b60000 00013000  C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "0000000072750000 0008e000  C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "00000000727e0000 00023000  C:\\WINDOWS\\SYSTEM32\\dwmapi.dll",
+    "000000006c1e0000 00288000  C:\\WINDOWS\\SYSTEM32\\dwrite.dll",
+    "0000000075510000 00008000  C:\\WINDOWS\\System32\\FLTLIB.DLL",
+    "0000000075bc0000 00022000  C:\\WINDOWS\\System32\\GDI32.dll",
+    "0000000077020000 00164000  C:\\WINDOWS\\System32\\gdi32full.dll",
+    "0000000072550000 0000a000  C:\\WINDOWS\\SYSTEM32\\HID.DLL",
+    "00000000752a0000 00026000  C:\\WINDOWS\\System32\\IMM32.dll",
+    "0000000072810000 00030000  C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "00000000773c0000 0000f000  C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "0000000075bf0000 000e0000  C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "00000000774f0000 001e4000  C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "0000000074740000 0000e000  C:\\WINDOWS\\System32\\MSASN1.dll",
+    "0000000063050000 00006000  C:\\WINDOWS\\SYSTEM32\\MSIMG32.dll",
+    "00000000778b0000 0007d000  C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "0000000074d90000 000bf000  C:\\WINDOWS\\System32\\msvcrt.dll",
+    "0000000069b60000 00056000  C:\\WINDOWS\\system32\\mswsock.dll",
+    "0000000073820000 00011000  C:\\WINDOWS\\system32\\napinsp.dll",
+    "0000000072aa0000 00013000  C:\\WINDOWS\\system32\\NLAapi.dll",
+    "0000000074eb0000 00007000  C:\\WINDOWS\\System32\\NSI.dll",
+    "0000000077a20000 00190000  C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "0000000075610000 000fc000  C:\\WINDOWS\\System32\\ole32.dll",
+    "00000000582f0000 00056000  C:\\WINDOWS\\SYSTEM32\\OLEACC.dll",
+    "0000000075200000 00096000  C:\\WINDOWS\\System32\\OLEAUT32.dll",
+    "0000000072ac0000 00016000  C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "00000000751b0000 00045000  C:\\WINDOWS\\System32\\powrprof.dll",
+    "00000000776e0000 00018000  C:\\WINDOWS\\System32\\profapi.dll",
+    "0000000074080000 00180000  C:\\WINDOWS\\SYSTEM32\\PROPSYS.dll",
+    "00000000778a0000 00006000  C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "0000000077300000 000c0000  C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "0000000074ec0000 00044000  C:\\WINDOWS\\System32\\sechost.dll",
+    "0000000075330000 00088000  C:\\WINDOWS\\System32\\shcore.dll",
+    "0000000075cd0000 0134a000  C:\\WINDOWS\\System32\\SHELL32.dll",
+    "00000000750a0000 00045000  C:\\WINDOWS\\System32\\SHLWAPI.dll",
+    "00000000742e0000 00020000  C:\\WINDOWS\\System32\\SspiCli.dll",
+    "00000000773d0000 0011d000  C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "0000000058150000 0019f000  C:\\WINDOWS\\SYSTEM32\\UIAutomationCore.DLL",
+    "0000000074f10000 0018d000  C:\\WINDOWS\\System32\\USER32.dll",
+    "00000000729e0000 00021000  C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "000000005f880000 00017000  C:\\WINDOWS\\SYSTEM32\\USP10.dll",
+    "0000000074250000 0007c000  C:\\WINDOWS\\SYSTEM32\\UxTheme.dll",
+    "00000000729d0000 00008000  C:\\WINDOWS\\SYSTEM32\\VERSION.dll",
+    "0000000075560000 00017000  C:\\WINDOWS\\System32\\win32u.dll",
+    "0000000074750000 005ba000  C:\\WINDOWS\\System32\\windows.storage.dll",
+    "0000000073020000 00454000  C:\\WINDOWS\\SYSTEM32\\WININET.dll",
+    "0000000072ff0000 00024000  C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "0000000072700000 00023000  C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "0000000073810000 0000c000  C:\\WINDOWS\\System32\\winrnr.dll",
+    "0000000071bf0000 0006d000  C:\\WINDOWS\\SYSTEM32\\WINSPOOL.DRV",
+    "0000000075140000 00067000  C:\\WINDOWS\\System32\\WS2_32.dll",
+    "00000000697b0000 00011000  C:\\WINDOWS\\System32\\wshbth.dll",
+    "0000000064560000 00204000  C:\\WINDOWS\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.648_none_42f2d7c044decfd8\\COMCTL32.dll"
+  ]
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9130000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 24640.000000,
+  "message": "[ElectronMain] File did not exist, using empty settings.",
+  "data": {
+    "filename": "ElectronSettings.json"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9150000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 24640.000000,
+  "message": "[ElectronMain] Checking migration status",
+  "data": {
+    "step": "fileSettings",
+    "version": 1,
+    "current": null
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9170000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 24640.000000,
+  "message": "[ElectronMain] Checking migration status",
+  "data": {
+    "step": "settingsMigrationPatch",
+    "version": 1,
+    "current": null
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9720000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 27724.000000,
+  "message": "[ElectronMain] File did not exist, using empty settings.",
+  "data": {
+    "filename": "release.json"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9800000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 27772.000000,
+  "message": "[ElectronMain] Checking migration status",
+  "data": {
+    "step": "externalSettings",
+    "version": 1,
+    "current": null
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9810000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 27792.000000,
+  "message": "[ElectronMain] Checking migration status",
+  "data": {
+    "step": "migrationPatch",
+    "version": 1,
+    "current": null
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:58.9900000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 27856.000000,
+  "message": "[ElectronMain] File did not exist, using empty settings.",
+  "data": {
+    "filename": "ModsSettings.json"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.6410000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 35768.000000,
+  "message": "[ElectronMain] Adding Tasks to Jump List C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\TwitchUI.exe"
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7040000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36080.000000,
+  "message": "[ElectronMain] Task succuessfully set",
+  "data": {
+    "data": true
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7160000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36100.000000,
+  "message": "[ElectronMain] File did not exist, using empty settings.",
+  "data": {
+    "filename": "NotificationSettings.json"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7170000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36104.000000,
+  "message": "[ElectronMain] File did not exist, using empty settings.",
+  "data": {
+    "filename": "MinecraftSettings.json"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7180000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36160.000000,
+  "message": "[ElectronMain] Checking migration status",
+  "data": {
+    "step": "loginMigration",
+    "version": 2,
+    "current": null
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7290000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36164.000000,
+  "message": "[ElectronMain] Initializing FastLogin",
+  "data": {
+    "usherLoginArg": "143920302"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7300000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36164.000000,
+  "message": "[ElectronMain] Starting all processes."
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7310000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36164.000000,
+  "message": "[ElectronMain] Launching process",
+  "data": {
+    "name": "TwitchAgent.exe"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7810000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36188.000000,
+  "message": "[ElectronMain] Launched process successfully",
+  "data": {
+    "name": "TwitchAgent.exe",
+    "pid": 14444
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7810000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36188.000000,
+  "message": "[ElectronMain] Connecting to service",
+  "data": {
+    "name": "TwitchAgent.exe"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7820000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36188.000000,
+  "message": "[ElectronMain] Connecting.",
+  "data": {
+    "route": "Twitch-App-Pipe-14444"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7820000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36188.000000,
+  "message": "[ElectronMain] Creating IPC connection...",
+  "data": {
+    "name": "TwitchAgent.exe"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7900000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36628.000000,
+  "message": "[ElectronMain] NativeIpc->connect: connecting."
+},
+{
+  "timestamp": "2019-04-03T16:27:59.7970000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36764.000000,
+  "message": "[ElectronMain] Process start complete."
+},
+{
+  "timestamp": "2019-04-03T16:27:59.8060000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36764.000000,
+  "message": "[ElectronMain] Updating openOnStartup setting to match file state",
+  "data": {
+    "enabled": true
+  }
+},
+{
+  "timestamp": "2019-04-03T16:27:59.9300000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37680.000000,
+  "message": "[ElectronMain] dynamic settings loaded"
+},
+{
+  "timestamp": "2019-04-03T16:27:59.9330000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37700.000000,
+  "message": "[ElectronMain] No login cookie found."
+},
+{
+  "timestamp": "2019-04-03T16:28:00.3420000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37920.000000,
+  "message": "[ElectronMain] Applying HTTP Protocol for Desktop local access",
+  "data": {
+    "protocol": "desklight"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:00.3480000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37920.000000,
+  "message": "[ElectronMain] Loading URL into Webview",
+  "data": {
+    "decodedUrl": "https://www.twitch.tv/"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:00.4630000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 38356.000000,
+  "message": "[ElectronMain] NativeIpc->IPC connected"
+},
+{
+  "timestamp": "2019-04-03T16:28:00.4630000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 38356.000000,
+  "message": "[ElectronMain] IPC connection successful!",
+  "data": {
+    "name": "TwitchAgent.exe"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:02.6890000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 38668.000000,
+  "message": "[ElectronMain] Fuel initialize message received",
+  "data": {
+    "isInitialized": true
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:05.0940000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 40352.000000,
+  "message": "[ElectronMain] No token stored in key storage",
+  "data": {
+    "keytarKey": "Mods"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:05.0950000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 40356.000000,
+  "message": "[ElectronMain] No token stored in key storage",
+  "data": {
+    "keytarKey": "Games"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:05.4240000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 40792.000000,
+  "message": "[ElectronMain.UI: Twilight] Updating app load metrics from app startup"
+},
+{
+  "timestamp": "2019-04-03T16:28:06.2530000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 42804.000000,
+  "message": "[ElectronMain.Preload] Removing value from localStorage"
+},
+{
+  "timestamp": "2019-04-03T16:28:08.0250000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37120.000000,
+  "message": "[ElectronMain] Performing FastLogin",
+  "data": {
+    "username": "thesandpresident"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:09.0140000Z",
+  "level": "Info",
+  "thread": 9284,
+  "memory": 37152.000000,
+  "message": "Modules",
+  "data": [
+    "000000000f050000 00019000  \\\\?\\C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\resources\\app.asar.unpacked\\node_modules\\@paulcbetts\\system-idle-time\\build\\Release\\system_idle_time.node",
+    "000000000f9c0000 0001d000  \\\\?\\C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\resources\\app.asar.unpacked\\node_modules\\keytar\\build\\Release\\keytar.node",
+    "000000000edb0000 0004d000  \\\\?\\C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\resources\\app.asar.unpacked\\node_modules\\twitch-desktop-ipc\\build\\Release\\twitch-desktop-ipc.node",
+    "000000000f5d0000 00023000  \\\\?\\C:\\Users\\andre\\AppData\\Roaming\\Twitch\\Bin\\Electron\\resources\\app.asar.unpacked\\node_modules\\twitch-desktop-utils\\build\\Release\\twitch-desktop-utils.node",
+    "0000000072660000 0009d000  C:\\WINDOWS\\system32\\apphelp.dll",
+    "000000005bc30000 0000d000  C:\\WINDOWS\\SYSTEM32\\atlthunk.dll",
+    "0000000073b20000 000fb000  C:\\WINDOWS\\system32\\audioses.dll",
+    "0000000073e90000 00008000  C:\\WINDOWS\\system32\\AVRT.dll",
+    "0000000075580000 00083000  C:\\WINDOWS\\System32\\clbcatq.dll",
+    "0000000072b50000 0000c000  C:\\WINDOWS\\SYSTEM32\\ColorAdapterClient.dll",
+    "00000000682d0000 0008b000  C:\\WINDOWS\\SYSTEM32\\CoreMessaging.dll",
+    "0000000068070000 0025d000  C:\\WINDOWS\\SYSTEM32\\CoreUIComponents.dll",
+    "00000000694e0000 00026000  C:\\Windows\\System32\\cryptnet.dll",
+    "0000000071bb0000 00013000  C:\\WINDOWS\\SYSTEM32\\CRYPTSP.dll",
+    "0000000063960000 0000f000  C:\\WINDOWS\\SYSTEM32\\cscapi.dll",
+    "00000000735b0000 00252000  C:\\WINDOWS\\system32\\d3d11.dll",
+    "0000000072cf0000 0004f000  C:\\WINDOWS\\system32\\dataexchange.dll",
+    "0000000073c20000 0013c000  C:\\WINDOWS\\system32\\dcomp.dll",
+    "000000006b570000 00022000  C:\\WINDOWS\\system32\\DEVOBJ.dll",
+    "0000000071e10000 00098000  C:\\WINDOWS\\system32\\dxgi.dll",
+    "0000000069b00000 0004f000  C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "0000000069510000 0001e000  C:\\WINDOWS\\SYSTEM32\\gpapi.dll",
+    "000000005ec60000 0000b000  C:\\WINDOWS\\SYSTEM32\\LINKINFO.dll",
+    "0000000073e00000 0005c000  C:\\WINDOWS\\system32\\MMDevAPI.DLL",
+    "000000005f980000 0008e000  C:\\WINDOWS\\SYSTEM32\\mscms.dll",
+    "00000000753c0000 00143000  C:\\WINDOWS\\System32\\MSCTF.dll",
+    "000000005ba30000 00067000  C:\\WINDOWS\\SYSTEM32\\msvcp110_win.dll",
+    "0000000069950000 00029000  C:\\WINDOWS\\SYSTEM32\\ntmarta.dll",
+    "0000000063970000 000c8000  C:\\WINDOWS\\SYSTEM32\\ntshrui.dll",
+    "000000005b080000 0006d000  C:\\WINDOWS\\SYSTEM32\\policymanager.dll",
+    "0000000069b50000 00008000  C:\\Windows\\System32\\rasadhlp.dll",
+    "00000000636d0000 00021000  C:\\WINDOWS\\system32\\RMCLIENT.dll",
+    "0000000071b80000 0002f000  C:\\WINDOWS\\system32\\rsaenh.dll",
+    "0000000064510000 0001c000  C:\\WINDOWS\\SYSTEM32\\srvcli.dll",
+    "0000000056e70000 0007d000  C:\\WINDOWS\\SYSTEM32\\TextInputFramework.dll",
+    "0000000063700000 00165000  C:\\WINDOWS\\system32\\twinapi.appcore.dll",
+    "0000000069150000 000b0000  C:\\WINDOWS\\SYSTEM32\\WINHTTP.dll",
+    "0000000068020000 00042000  C:\\WINDOWS\\SYSTEM32\\WINSTA.dll",
+    "0000000072560000 000d6000  C:\\WINDOWS\\SYSTEM32\\wintypes.dll",
+    "000000005bb40000 00052000  C:\\WINDOWS\\system32\\wlanapi.dll",
+    "00000000729c0000 0000f000  C:\\WINDOWS\\SYSTEM32\\WTSAPI32.dll"
+  ]
+},
+{
+  "timestamp": "2019-04-03T16:28:09.8040000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain.UI: auth.init.token] Updating primary auth token cookie."
+},
+{
+  "timestamp": "2019-04-03T16:28:09.8040000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain.UI: auth.init.token] Updating login cookie."
+},
+{
+  "timestamp": "2019-04-03T16:28:10.0500000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] No token stored in key storage",
+  "data": {
+    "keytarKey": "Mods"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:10.0510000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] No token stored in key storage",
+  "data": {
+    "keytarKey": "Games"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:10.0520000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] Acquiring Mods token"
+},
+{
+  "timestamp": "2019-04-03T16:28:10.0520000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] Creating new token"
+},
+{
+  "timestamp": "2019-04-03T16:28:10.0720000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain.UI: Twilight] Updating app load metrics from refresh"
+},
+{
+  "timestamp": "2019-04-03T16:28:10.2510000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] Acquiring My Games token"
+},
+{
+  "timestamp": "2019-04-03T16:28:10.2510000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 37576.000000,
+  "message": "[ElectronMain] Creating new token"
+},
+{
+  "timestamp": "2019-04-03T16:28:10.8270000Z",
+  "level": "Info",
+  "thread": 10088,
+  "memory": 36976.000000,
+  "message": "[ElectronMain.Preload] Setting localStorage"
+},
+{
+  "timestamp": "2019-04-03T16:28:12.4780000Z",
+  "level": "Warn",
+  "thread": 10088,
+  "memory": 38300.000000,
+  "message": "[ElectronMain.UI: Session Status] Failed to update status. Trying again in 61501.65512563563 seconds.",
+  "data": {
+    "message": "Cannot read property 'setAgainInSeconds' of null",
+    "name": "TypeError",
+    "stack": "TypeError: Cannot read property 'setAgainInSeconds' of null\n    at https://static.twitchcdn.net/assets/core-96761be4494e791b6823.js:1:864800\n    at https://static.twitchcdn.net/assets/vendor-6f5758e770e314e5d358.js:1:715092\n    at Object.next (https://static.twitchcdn.net/assets/vendor-6f5758e770e314e5d358.js:1:715197)\n    at a (https://static.twitchcdn.net/assets/vendor-6f5758e770e314e5d358.js:1:713968)"
+  }
+},
+{
+  "timestamp": "2019-04-03T16:28:29.3300000Z",
+  "level": "Info",
+  "thread": 9284,
+  "memory": 37452.000000,
+  "message": "Modules",
+  "data": [
+    "0000000072c20000 00053000  C:\\WINDOWS\\system32\\Ninput.dll"
+  ]
+},
+{
+  "timestamp": "2019-04-03T16:30:10.5680000Z",
+  "level": "Info",
+  "thread": 9284,
+  "memory": 39296.000000,
+  "message": "Modules",
+  "data": [
+    "0000000063870000 0003d000  C:\\WINDOWS\\SYSTEM32\\edputil.dll",
+    "000000005ed10000 00b67000  C:\\Windows\\System32\\ieframe.dll",
+    "0000000064a20000 00228000  C:\\WINDOWS\\SYSTEM32\\iertutil.dll",
+    "0000000064450000 00035000  C:\\WINDOWS\\SYSTEM32\\MLANG.dll",
+    "0000000068fe0000 00013000  C:\\Windows\\System32\\NETAPI32.dll",
+    "0000000068fd0000 0000b000  C:\\Windows\\System32\\NETUTILS.DLL",
+    "0000000064120000 00328000  C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+    "0000000071fc0000 0000a000  C:\\WINDOWS\\SYSTEM32\\Secur32.dll",
+    "0000000066300000 0019d000  C:\\WINDOWS\\SYSTEM32\\urlmon.dll",
+    "0000000050000000 00017000  C:\\Windows\\System32\\Windows.Shell.ServiceHostBuilder.dll",
+    "00000000695f0000 00010000  C:\\Windows\\System32\\WKSCLI.DLL"
+  ]
+},
+{
+  "timestamp": "2019-04-03T16:37:15.7740000Z",
+  "level": "Info",
+  "thread": 9284,
+  "memory": 40620.000000,
+  "message": "Modules",
+  "data": [
+    "00000000638e0000 00046000  C:\\Windows\\System32\\ActXPrxy.dll",
+    "0000000063fe0000 0001a000  C:\\WINDOWS\\SYSTEM32\\CLDAPI.dll",
+    "000000005bba0000 00086000  C:\\WINDOWS\\SYSTEM32\\sxs.dll"
+  ]
+}
+]}
